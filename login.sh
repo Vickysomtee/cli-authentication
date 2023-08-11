@@ -23,7 +23,7 @@ response=$(curl -s -w "\nHTTPSTATUS:%{http_code}\\n" -d "$data" -H "Content-Type
 HTTP_STATUS=$(echo $response | tr -d '\n' | sed -e 's/.*HTTPSTATUS://')
 
 if [[ $HTTP_STATUS -eq 201 ]]; then
-    echo $response >./response.txt #writes response of the request into a response.txt in this folder
+    echo $response > ./response.txt #writes response of the request into a response.txt in this folder
     echo Authenticated Sucessfully
 else
     echo unauthorized: incorrect email or password
