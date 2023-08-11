@@ -4,7 +4,7 @@ I wanted to understand the flow of authenticating user login from the CLI so I w
 
 ## How it works
 
-This script basically recieves the user's email address and password, validates the email address, makes the request using curl and writes the response of the request to file name response.txt in the same folder (Default behaviour). You can read into the file to extract the token for subsequent request.
+This script basically recieves the user's email address and password, validates the email address, makes the request using curl and writes the response of the request to a file `response.txt` in the same folder (Default behaviour). You can read into the file to extract the authentication token for subsequent request.
 
 ## Run Package
 
