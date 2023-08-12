@@ -1,6 +1,6 @@
 # cli-login
 
-I wanted to understand the flow of authenticating user login from the CLI so I wrote a basic shell script using bash. It turned out really great.
+I wanted to understand the flow of authenticating users login from the CLI so I wrote a simple shell script using bash. It turned out really great.
 
 ## How it works
 
